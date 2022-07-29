@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+<!--             <li>
+                <a href="#about">About</a>
+            </li> -->
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Compétences</a>
+            </li>
+            <!--<li>
+                <a href="#contact">Contact</a>
+            </li>-->
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Idriss Kourbanhoussen</h1>
+            <h2>Développeur R</h2>
+            <a href="ressources/cv/CV_Idriss-Kourbanhoussen.pdf" download="resume.pdf" class="btn-rounded-white">Voir mon CV</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <!--<div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat. Donec
+                        eu vehicula neque. Donec viverra lorem nunc, tempus euismod eros sollicitudin ut. Quisque et tincidunt libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu scelerisque justo tempus pharetra. Vivamus nunc justo, finibus
+                        ut nisl sed, euismod rhoncus nulla. Proin sed magna egestas, egestas ante et, congue eros. In consequat, mauris dapibus tincidunt suscipit, ex libero aliquet diam, at maximus risus enim non leo.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+
+            <div data-date="Novembre 2018 – Mai 2020">
+                <h3>Développeur R/Shiny</h3>
+                <h4>Peaccel | Saint-Denis | CDD</h4>
+                <ul>
+                	<li>Data Science: transformation des données et mise en place des modèles avec le package <i>caret</i> et visualisation des résultats avec le package <i>ggplot2</i></li>
+                	<li>Création d’une d'applications Web interactives à partir du package <i>Shiny</i></li>
+                	<li>Rédaction de document technique</li>
+                	<li>Présentation devant des investisseurs ou d’agents de la FEDER (fonds européen de développement régional)</li>
+                	<li>Gestion d’un calculateur ClusterVision</li>
+                	<li>Gestion des versions à partir du logiciel <i>GIT</i></li>
+                </ul> 
+            </div>
+
+            <div data-date="Janvier. 2018 - Juillet 2018">
+                <h3>Développeur R</h3>
+                <h4>Peaccel | Saint-Denis | Stage: Recherche et Développement</h4>
+                <ul>
+                    <li>Implémentation d’un Réseau neuronal convolutif avec le package <i>Keras</i></li>
+                </ul> 
+            </div>
+
+
+            <div data-date="Novembre 2016 – Avril 2017">
+                <h3>Développeur C#</h3>
+                <h4>Université de la Réunion | Saint-Denis | TER: Travaux d'enseignement et de recherche</h4>
+                <ul>
+                    <li>Conception d'un 𝑠𝑒𝑟𝑖𝑜𝑢𝑠 𝑔𝑎𝑚𝑒 pour la promotion de la filière
+                        informatique à partir du moteur de jeu <i>Unity</i></li>
+                    <li> Gestion d’une équipe </li>
+                </ul> 
+            </div>
+
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>Université de la Réunion</h3>
+            <span class="education-date">2016 - 2018</span>
+            <h4>Master en Informatique</h4>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large" onclick="location.href='pages/ds.html';" style="cursor:pointer;">
+                    <div class="project-image">
+                        <img src="images/machine learning.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info" >
+                        <h3>Data science</h3>
+                        <p>
+                            Projet en machine learning suivi sur le site <a href="https://data-flair.training/">Data Flair</a>                       
+                        </p>
+                        <!--<a href="pages/ds.html">Aperçu</a>-->
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large" onclick="location.href='pages/reactjs.html';" style="cursor:pointer;">
+                    <div class="project-image">
+                        <img src="images/react-300x300.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Application en Reactjs</h3>
+                        <!--<a href="pages/reactjs.html">Aperçu</a>-->
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>R</li>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>Rstudio / Spyder</li>
+            <li>LibreOffice / MicrosoftOffice</li>
+            <li>Unity</li>
+            <li>GIMP 2</li>
+            <li>Tableau</li>
+            <li>SQL Server Data Tools</li>
+            <li>C#</li>
+            <li>Reactjs</li>
+            <li>LaTex / Markdown</li>
+            <li>HTML</li>
+            <li>bash</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <!-- 
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/email@email.com">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!- - End #contact-form - ->
+    </div>
+    <!- - End #contact - ->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; <span id="current-year">2022</span> YOUR NAME
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!- - End footer - -> 
+	-->
+
+	<div class="optional-section background-alt">
+    <h2 class="heading">Concours</h2>
+
+    <div class="optional-section-block">
+
+<table cellspacing="0" border="0" style="margin: 0 auto;">
+    <colgroup width="160"></colgroup>
+    <colgroup width="122"></colgroup>
+    <colgroup width="180"></colgroup>
+    <colgroup width="107"></colgroup>
+    <tr>
+        <td colspan=2 height="29" align="center"  sdval="2016" sdnum="4108;"><font face="LiberationSans" size=5>2016</font></td>
+        <td colspan=2 align="center"  sdval="2017" sdnum="4108;"><font face="LiberationSans" size=5>2017</font></td>
+        </tr>
+    <tr>
+        <td height="21" align="left"><font face="Liberation Serif"><br></font></td>
+        <td align="left"><font face="Liberation Serif"><br></font></td>
+        <td align="left"><font face="Liberation Serif"><br></font></td>
+        <td align="left"><font face="Liberation Serif"><br></font></td>
+    </tr>
+    <tr>
+        <td height="40" align="left" ><b><font face="LiberationSans-Bold">Volcano GameJam</font></b></td>
+        <td align="left" class="petit">Obtention du<br>3&egrave;me prix</td>
+        <td align="left" ><b><font face="LiberationSans-Bold">Hackaton NxSE</font></b></td>
+        <td align="left" class="petit">Obtention du<br>1er prix</td>
+    </tr>
+    <tr>
+        <td colspan=2 height="40" align="left" >3&egrave;me &eacute;dition- cr&eacute;ation collaborative<br>d&rsquo;un jeu sur la P&eacute;trel de Barau</td>
+        <td colspan=2 align="left" >Organis&eacute; lors du forum Transformation Digitale &ndash; Ocean Indien / Afrique</td>
+        </tr>
+    <tr>
+        <td height="21" align="left" ><font face="Liberation Serif"><br></font></td>
+        <td align="left" ><font face="Liberation Serif"><br></font></td>
+        <td align="left" ><font face="Liberation Serif"><br></font></td>
+        <td align="left" ><font face="Liberation Serif"><br></font></td>
+    </tr>
+    <tr>
+        <td height="40" align="left" ><b><font face="LiberationSans-Bold">StartUp Week end</font></b></td>
+        <td align="left" class="petit">Obtention du<br>3eme prix</td>
+        <td align="left" ><b><font face="LiberationSans-Bold">Hackaton Lab s&eacute;curit&eacute;</font></b></td>
+        <td align="left" ><font face="Liberation Serif"><br></font></td>
+    </tr>
+    <tr>
+        <td colspan=2 height="40" align="left" >Pr&eacute;sentation d'un projet d'entreprise innovante</td>
+        <td align="left"><br></td>
+        <td align="left" ><font face="Liberation Serif"><br></font></td>
+    </tr>
+    <tr>
+        <td height="21" align="left" ><font face="Liberation Serif"><br></font></td>
+        <td align="left" ><font face="Liberation Serif"><br></font></td>
+        <td align="left"><br></td>
+        <td align="left" ><font face="Liberation Serif"><br></font></td>
+    </tr>
+    <tr>
+        <td height="21" align="left" ><b><font face="LiberationSans-Bold">Nuit de l'info</font></b></td>
+        <td align="left" ><font face="Liberation Serif"><br></font></td>
+        <td align="left"><br></td>
+        <td align="left" ><font face="Liberation Serif"><br></font></td>
+    </tr>
+    <tr>
+        <td colspan=2 height="40" align="left" >D&eacute;veloppement d'une application web en une nuit</td>
+        <td align="left"><br></td>
+        <td align="left" ><font face="Liberation Serif"><br></font></td>
+    </tr>
+</table>
+
+
+    </div>
+    <!-- End .optional-section-block -->
+
+</div>
+<!-- End .optional-section -->
+
+<footer style="padding: initial;">  
+<p style="margin-left:25px;"> Template by <a href="https://github.com/RyanFitzgerald/devportfolio">RyanFitzgerald</a> </p>
+</footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+
+
+</body>
+
+</html>
