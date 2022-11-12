@@ -3,26 +3,55 @@
 <head>
   <meta charset="utf-8">
   <title>Projet Data Science</title>
-  <link href="../css/pages.css" rel="stylesheet">
+  <link href="../css/page.css" rel="stylesheet">
 </head>
 <body>
   <h1> Data Science - Mini projet - Python </h1>
-  <ul>
-    <li>
-      <a class="tiptext" href="../ressources/rmd/Detecting-Fake-News.html"> Fake News Detection
-        <iframe class="description" src="../ressources/rmd/Detecting-Fake-News.html"></iframe>
-      </a>
-    </li>
-    <li>
-      <a class="tiptext" href="../ressources/rmd/Pakinson.html"> Parkinson’s Disease Detection
-        <iframe class="description" src="../ressources/rmd/Pakinson.html"></iframe>
-      </a>
-    </li>
-    <li>
-      <a class="tiptext" href="../ressources/rmd/colorDetec.html"> Color Detection
-        <iframe class="description" src="../ressources/rmd/colorDetec.html"></iframe>
-      </a>
-    </li>
+
+  <div class="project-preview" href="#">
+    <img src="../images/ds/color_detection.PNG" alt="color_detection" />
+    <div class="project-preview__description">
+      <h1>Color detection from an image</h1>
+      <p>Application grâce à laquelle on peut déterminer automatiquement le nom de la couleur en cliquant dessus.</p>
+      <a class="project-btn" href="../ressources/rmd/colorDetec.html">Voir le projet</a>
+  
+      <!-- <ul>
+        <li>Skills:</li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">Design</a></li>
+        <li><a href="#">Wireframing</a></li>
+      </ul> -->
+    </div>
+  </div>
+  
+  <div class="project-preview" href="#">
+    <img src="../images/ds/Parkinson.png" alt="Parkinson" />
+    <div class="project-preview__description">
+      <h1>Détection de la maladie de Parkinson</h1>
+      <p>Mise en place d'un modèle qui détecte la présence de la maladie de Parkinson chez un individu à partir de l'algorithme <i>XGBoost</i>.</p>
+      <a class="project-btn" href="../ressources/rmd/Pakinson.html">Voir le projet</a>
+    </div>
+  </div>
+
+  <div class="project-preview" href="#">
+    <img src="../images/ds/fake-news.jpg" alt="Parkinson" />
+    <div class="project-preview__description">
+      <h1>Détection de fausses nouvelles</h1>
+      <p>Mise en place d'un modèle qui détecte les fausses nouvelles (fake news) grâce à la fréquence de mot <i>TfidfVectorizer</i> et au classifieur <i> Passive Aggressive</i></p>
+      <a class="project-btn" href="../ressources/rmd/Detecting-Fake-News.html">Voir le projet</a>
+    </div>
+  </div>
+
+  <div class="project-preview" href="#">
+    <img src="../images/ds/ser.jpg" alt="Speech Emotion Recognition" />
+    <div class="project-preview__description">
+      <h1>Reconnaissance des émotions à partir d'une séquence audio</h1>
+      <p>Mise en place d'un modèle qui reconnaît l'émotion à partir de la parole en utilisant les bibliothèques <i>librosa</i> et <i>sklearn</i> et l'ensemble de données <i>RAVDESS</i>.</p>
+      <a class="project-btn" href="../ressources/rmd/SER.html">Voir le projet</a>
+    </div>
+  </div>
+
+  <!-- <ul>
     <li>
       <a class="tiptext" href="../ressources/rmd/SER.html"> Speech Emotion Recognition
         <iframe class="description" src="../ressources/rmd/SER.html"></iframe>
@@ -33,10 +62,10 @@
         <iframe class="description" src="https://devia05.github.io/demo/"></iframe>
       </a>
     </li>
-</ul> 
-
+</ul>  -->
+<!-- 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="../js/pages.js"></script>
+  <script src="../js/pages.js"></script> -->
 
 </body>
 </html>
