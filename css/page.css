@@ -97,3 +97,8 @@ a {
     color: #919191;
     border-color: #919191;
 }
+
+.project-preview .project-preview__description .link{
+    color: inherit;
+    text-decoration: underline; 
+}
